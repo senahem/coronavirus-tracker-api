@@ -116,7 +116,7 @@ async def get_category(category):
             "locations": locations,
             "latest": latest,
             "last_updated": datetime.utcnow().isoformat() + "Z",
-            "source": "https://github.com/ExpDev07/coronavirus-tracker-api",
+            "source": "https://github.com/senahem/coronavirus-tracker-api",
         }
         # save the results to distributed cache
         await load_cache(data_id, results)
